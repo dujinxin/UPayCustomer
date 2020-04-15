@@ -1,0 +1,1134 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		290F5D682334791A0084E526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5D672334791A0084E526 /* AppDelegate.swift */; };
+		290F5D6A2334791A0084E526 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5D692334791A0084E526 /* ViewController.swift */; };
+		290F5D6D2334791A0084E526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290F5D6B2334791A0084E526 /* Main.storyboard */; };
+		290F5D6F2334791C0084E526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290F5D6E2334791C0084E526 /* Assets.xcassets */; };
+		290F5D722334791C0084E526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290F5D702334791C0084E526 /* LaunchScreen.storyboard */; };
+		290F5E4C23347ED00084E526 /* UPayBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5D7A23347ECF0084E526 /* UPayBaseModel.swift */; };
+		290F5E4D23347ED00084E526 /* UPayTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5D7B23347ECF0084E526 /* UPayTabBarViewController.swift */; };
+		290F5E4E23347ED00084E526 /* UPayNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5D7C23347ECF0084E526 /* UPayNavigationController.swift */; };
+		290F5E4F23347ED00084E526 /* UPayBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5D7D23347ECF0084E526 /* UPayBaseViewController.swift */; };
+		290F5E5023347ED00084E526 /* UPayWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5D7E23347ECF0084E526 /* UPayWebViewController.swift */; };
+		290F5E5123347ED00084E526 /* UPayCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5D7F23347ECF0084E526 /* UPayCollectionViewController.swift */; };
+		290F5E5223347ED00084E526 /* UPayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5D8023347ECF0084E526 /* UPayTableViewController.swift */; };
+		290F5E5323347ED00084E526 /* UPayHomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5D8423347ECF0084E526 /* UPayHomeVM.swift */; };
+		290F5E5723347ED00084E526 /* UPayHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5D8A23347ECF0084E526 /* UPayHomeViewController.swift */; };
+		290F5E5823347ED00084E526 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290F5D8B23347ECF0084E526 /* Home.storyboard */; };
+		290F5E5923347ED00084E526 /* UPayHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5D8E23347ECF0084E526 /* UPayHomeModel.swift */; };
+		290F5E6023347ED00084E526 /* JXSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5D9A23347ECF0084E526 /* JXSelectView.swift */; };
+		290F5E6A23347ED00084E526 /* UPayScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5DA723347ECF0084E526 /* UPayScanViewController.swift */; };
+		290F5E7723347ED00084E526 /* UPayAdVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5DB823347ECF0084E526 /* UPayAdVM.swift */; };
+		290F5E7923347ED00084E526 /* Ad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290F5DBC23347ECF0084E526 /* Ad.storyboard */; };
+		290F5E7A23347ED00084E526 /* UPayAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5DBE23347ECF0084E526 /* UPayAdViewController.swift */; };
+		290F5E7C23347ED00084E526 /* UPayFindModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5DC123347ECF0084E526 /* UPayFindModel.swift */; };
+		290F5E8223347ED00084E526 /* JXDropListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5DCE23347ECF0084E526 /* JXDropListView.swift */; };
+		290F5E8823347ED00084E526 /* JXXBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5DD723347ECF0084E526 /* JXXBarView.swift */; };
+		290F5E9323347ED00084E526 /* Property.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290F5DE523347ECF0084E526 /* Property.storyboard */; };
+		290F5E9723347ED00084E526 /* UPayLoginRegisterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5DEE23347ECF0084E526 /* UPayLoginRegisterVM.swift */; };
+		290F5E9923347ED00084E526 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290F5DF223347ECF0084E526 /* Login.storyboard */; };
+		290F5E9C23347ED00084E526 /* UPayLanguageAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5DF723347ECF0084E526 /* UPayLanguageAlertController.swift */; };
+		290F5E9D23347ED00084E526 /* UPayModifyPsdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5DF823347ECF0084E526 /* UPayModifyPsdViewController.swift */; };
+		290F5E9E23347ED00084E526 /* UPayLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5DF923347ECF0084E526 /* UPayLoginViewController.swift */; };
+		290F5EA323347ED00084E526 /* UPayMyVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E0023347ECF0084E526 /* UPayMyVM.swift */; };
+		290F5EA523347ED00084E526 /* UPayVersionVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E0223347ECF0084E526 /* UPayVersionVM.swift */; };
+		290F5EA823347ED00084E526 /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290F5E0723347ECF0084E526 /* My.storyboard */; };
+		290F5EA923347ED00084E526 /* UPayMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E0923347ECF0084E526 /* UPayMyViewController.swift */; };
+		290F5EAA23347ED00084E526 /* UPayCommunityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E0B23347ECF0084E526 /* UPayCommunityModel.swift */; };
+		290F5EAB23347ED00084E526 /* UPayPromotionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E0C23347ECF0084E526 /* UPayPromotionModel.swift */; };
+		290F5EAC23347ED00084E526 /* UPayVersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E0D23347ECF0084E526 /* UPayVersionModel.swift */; };
+		290F5EAD23347ED00084E526 /* UPayIncomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E0E23347ECF0084E526 /* UPayIncomeModel.swift */; };
+		290F5EAE23347ED00084E526 /* UPayNoticeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E0F23347ECF0084E526 /* UPayNoticeModel.swift */; };
+		290F5EAF23347ED00084E526 /* UPayMyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E1023347ECF0084E526 /* UPayMyModel.swift */; };
+		290F5EB423347ED00084E526 /* UPayCommunityHeadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E1C23347ECF0084E526 /* UPayCommunityHeadCell.swift */; };
+		290F5EB623347ED00084E526 /* UPayIncomRecordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E1E23347ECF0084E526 /* UPayIncomRecordsCell.swift */; };
+		290F5EB723347ED00084E526 /* UPayNotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 290F5E1F23347ECF0084E526 /* UPayNotificationCell.xib */; };
+		290F5EB823347ED00084E526 /* UPayNotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E2023347ECF0084E526 /* UPayNotificationCell.swift */; };
+		290F5EB923347ED00084E526 /* UPayMyListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 290F5E2123347ECF0084E526 /* UPayMyListCell.xib */; };
+		290F5EBA23347ED00084E526 /* UPayCommunityListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 290F5E2223347ECF0084E526 /* UPayCommunityListCell.xib */; };
+		290F5EBB23347ED00084E526 /* UPayCommunityHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 290F5E2423347ECF0084E526 /* UPayCommunityHeadCell.xib */; };
+		290F5EBC23347ED00084E526 /* UPayIncomRecordsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 290F5E2623347ECF0084E526 /* UPayIncomRecordsCell.xib */; };
+		290F5EBD23347ED00084E526 /* UPaySelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 290F5E2823347ECF0084E526 /* UPaySelectCell.xib */; };
+		290F5EBE23347ED00084E526 /* UPayCommunityListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E2923347ECF0084E526 /* UPayCommunityListCell.swift */; };
+		290F5EBF23347ED00084E526 /* UPayMyListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E2A23347ECF0084E526 /* UPayMyListCell.swift */; };
+		290F5EC023347ED00084E526 /* UPaySelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E2B23347ECF0084E526 /* UPaySelectCell.swift */; };
+		290F5ECD23347ED00084E526 /* UPayVersionAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E3923347ECF0084E526 /* UPayVersionAlertController.swift */; };
+		290F5ED223347ED00084E526 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E4123347ED00084E526 /* UserManager.swift */; };
+		290F5ED323347ED00084E526 /* LanguageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E4223347ED00084E526 /* LanguageHeader.swift */; };
+		290F5ED423347ED00084E526 /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E4323347ED00084E526 /* ViewManager.swift */; };
+		290F5ED523347ED00084E526 /* ProjectHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E4423347ED00084E526 /* ProjectHeader.swift */; };
+		290F5ED623347ED00084E526 /* ConfigurationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E4523347ED00084E526 /* ConfigurationHeader.swift */; };
+		290F5ED723347ED00084E526 /* JXNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E4723347ED00084E526 /* JXNetworkError.swift */; };
+		290F5ED823347ED00084E526 /* JXBaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E4823347ED00084E526 /* JXBaseRequest.swift */; };
+		290F5ED923347ED00084E526 /* JXNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E4923347ED00084E526 /* JXNetworkManager.swift */; };
+		290F5EDA23347ED00084E526 /* JXRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E4A23347ED00084E526 /* JXRequest.swift */; };
+		290F5EDB23347ED00084E526 /* ApiEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E4B23347ED00084E526 /* ApiEnum.swift */; };
+		290F5EDD2335240E0084E526 /* UPayOrderRecordsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5EDC2335240E0084E526 /* UPayOrderRecordsController.swift */; };
+		290F5EDF2336326B0084E526 /* UPaySetSafePsdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5EDE2336326B0084E526 /* UPaySetSafePsdController.swift */; };
+		290F5EE1233656810084E526 /* UPayCertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5EE0233656810084E526 /* UPayCertViewController.swift */; };
+		290F5EE32337C1A50084E526 /* UPayCertResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5EE22337C1A50084E526 /* UPayCertResultController.swift */; };
+		290F5EE5233887610084E526 /* UPayAdListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5EE4233887610084E526 /* UPayAdListViewController.swift */; };
+		290F5EEB2338BE1A0084E526 /* UPayAdListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5EE92338BE1A0084E526 /* UPayAdListCell.swift */; };
+		290F5EEC2338BE1A0084E526 /* UPayAdListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 290F5EEA2338BE1A0084E526 /* UPayAdListCell.xib */; };
+		290F5EEE233913590084E526 /* UPayAddAd1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5EED233913590084E526 /* UPayAddAd1ViewController.swift */; };
+		290F5EF02339C8410084E526 /* UPayAddAd2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5EEF2339C8410084E526 /* UPayAddAd2ViewController.swift */; };
+		290F5EF2233A0CEE0084E526 /* CommonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5EF1233A0CEE0084E526 /* CommonManager.swift */; };
+		290F5EF4233A130A0084E526 /* UPayPropertyVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5EF3233A130A0084E526 /* UPayPropertyVM.swift */; };
+		290F5EF6233A13CD0084E526 /* UPayPropertyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5EF5233A13CD0084E526 /* UPayPropertyModel.swift */; };
+		290F5EF8233A5A7F0084E526 /* UPayReceiptAccountListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5EF7233A5A7F0084E526 /* UPayReceiptAccountListController.swift */; };
+		290F5EFB233A5D4D0084E526 /* UPayReceiptCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5EF9233A5D4D0084E526 /* UPayReceiptCell.swift */; };
+		290F5EFC233A5D4D0084E526 /* UPayReceiptCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 290F5EFA233A5D4D0084E526 /* UPayReceiptCell.xib */; };
+		290F5EFE233A6FEF0084E526 /* UPayReceiptAccountAddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5EFD233A6FEF0084E526 /* UPayReceiptAccountAddController.swift */; };
+		290F5F00233B1A900084E526 /* UPayBankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5EFF233B1A900084E526 /* UPayBankViewController.swift */; };
+		290F5F02233B1AB50084E526 /* UPayNetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5F01233B1AB50084E526 /* UPayNetViewController.swift */; };
+		290F5F04233B2ADD0084E526 /* UPayReceiptAccountVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5F03233B2ADD0084E526 /* UPayReceiptAccountVM.swift */; };
+		290F5F06233B2B360084E526 /* UPayReceiptModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5F05233B2B360084E526 /* UPayReceiptModel.swift */; };
+		291E7E71233B652100331632 /* UPayPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E7E70233B652100331632 /* UPayPropertyViewController.swift */; };
+		291E7E74233B675700331632 /* UPayPropertyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E7E72233B675700331632 /* UPayPropertyCell.swift */; };
+		291E7E75233B675700331632 /* UPayPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 291E7E73233B675700331632 /* UPayPropertyCell.xib */; };
+		291E7E77233B95D800331632 /* UPayCoinListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E7E76233B95D800331632 /* UPayCoinListController.swift */; };
+		291E7E7A233BA1B500331632 /* UPayCoinListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E7E78233BA1B500331632 /* UPayCoinListCell.swift */; };
+		291E7E7B233BA1B500331632 /* UPayCoinListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 291E7E79233BA1B500331632 /* UPayCoinListCell.xib */; };
+		291E7E7D233BAE8D00331632 /* UPayReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E7E7C233BAE8D00331632 /* UPayReceiptViewController.swift */; };
+		291E7E7F233BBD8000331632 /* UPayExportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E7E7E233BBD8000331632 /* UPayExportViewController.swift */; };
+		291E7E81233CB54200331632 /* UPayExportRecordsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E7E80233CB54200331632 /* UPayExportRecordsController.swift */; };
+		291E7E84233CB87600331632 /* UPayExportRecordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E7E82233CB87600331632 /* UPayExportRecordsCell.swift */; };
+		291E7E85233CB87600331632 /* UPayExportRecordsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 291E7E83233CB87600331632 /* UPayExportRecordsCell.xib */; };
+		291E7E87233CF30B00331632 /* UPayBuyPlatformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E7E86233CF30B00331632 /* UPayBuyPlatformViewController.swift */; };
+		291E7E89233D04F600331632 /* UPayBuyPlatformRecordsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E7E88233D04F600331632 /* UPayBuyPlatformRecordsController.swift */; };
+		291E7E8B233D08A700331632 /* UPayBuyPlatformModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E7E8A233D08A700331632 /* UPayBuyPlatformModel.swift */; };
+		291E7E8D233DC9C500331632 /* UPayBuyPlatformVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E7E8C233DC9C500331632 /* UPayBuyPlatformVM.swift */; };
+		291E7E90233DCDEE00331632 /* UPayBuyPlatformListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E7E8E233DCDEE00331632 /* UPayBuyPlatformListCell.swift */; };
+		291E7E91233DCDEE00331632 /* UPayBuyPlatformListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 291E7E8F233DCDEE00331632 /* UPayBuyPlatformListCell.xib */; };
+		291E7E93233E196C00331632 /* UPayBuyPlatformDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E7E92233E196C00331632 /* UPayBuyPlatformDetailController.swift */; };
+		291E7E95233E3C0700331632 /* UPayDetailTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E7E94233E3C0700331632 /* UPayDetailTableController.swift */; };
+		291E7E97233F8ADD00331632 /* UPayBuyPlatformDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E7E96233F8ADD00331632 /* UPayBuyPlatformDetailViewController.swift */; };
+		291E7E992340DB7600331632 /* JXLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E7E982340DB7600331632 /* JXLog.swift */; };
+		29245587234DEAF3007CE073 /* UPayAddAd3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29245586234DEAF3007CE073 /* UPayAddAd3ViewController.swift */; };
+		29245589234F3B75007CE073 /* UPaySinglePropertyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29245588234F3B75007CE073 /* UPaySinglePropertyController.swift */; };
+		2924558C234F693D007CE073 /* UPayPropertyRecordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2924558A234F693D007CE073 /* UPayPropertyRecordsCell.swift */; };
+		2924558D234F693D007CE073 /* UPayPropertyRecordsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2924558B234F693D007CE073 /* UPayPropertyRecordsCell.xib */; };
+		2927B8AB2346003C00A938A3 /* UPayBuyListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2927B8A92346003C00A938A3 /* UPayBuyListCell.swift */; };
+		2927B8AC2346003C00A938A3 /* UPayBuyListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2927B8AA2346003C00A938A3 /* UPayBuyListCell.xib */; };
+		2927B8AE234625AF00A938A3 /* UPayOrderBuyListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2927B8AD234625AF00A938A3 /* UPayOrderBuyListController.swift */; };
+		2927B8B02347238A00A938A3 /* UPayOrderBuyingDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2927B8AF2347238A00A938A3 /* UPayOrderBuyingDetailController.swift */; };
+		2927B8B223477FC300A938A3 /* UPayOrderBuyedDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2927B8B123477FC300A938A3 /* UPayOrderBuyedDetailController.swift */; };
+		29A9A9332355BF8000489648 /* UPayVersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A9A9322355BF8000489648 /* UPayVersonViewController.swift */; };
+		29E7662423410119007DA4A8 /* UPayHomeOrdeListrCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E7662223410119007DA4A8 /* UPayHomeOrdeListrCell.swift */; };
+		29E7662523410119007DA4A8 /* UPayHomeOrdeListrCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E7662323410119007DA4A8 /* UPayHomeOrdeListrCell.xib */; };
+		29E76627234201B1007DA4A8 /* UPaySelectOrderRecordsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E76626234201B1007DA4A8 /* UPaySelectOrderRecordsController.swift */; };
+		2FCF9372DAEBA0B3765CFAEE /* Pods_UPayCustomer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA57543AC687B554AF37E7A8 /* Pods_UPayCustomer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		290F5D642334791A0084E526 /* UPayCustomer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UPayCustomer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		290F5D672334791A0084E526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		290F5D692334791A0084E526 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		290F5D6C2334791A0084E526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		290F5D6E2334791C0084E526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		290F5D712334791C0084E526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		290F5D732334791C0084E526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		290F5D7A23347ECF0084E526 /* UPayBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayBaseModel.swift; sourceTree = "<group>"; };
+		290F5D7B23347ECF0084E526 /* UPayTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayTabBarViewController.swift; sourceTree = "<group>"; };
+		290F5D7C23347ECF0084E526 /* UPayNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayNavigationController.swift; sourceTree = "<group>"; };
+		290F5D7D23347ECF0084E526 /* UPayBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayBaseViewController.swift; sourceTree = "<group>"; };
+		290F5D7E23347ECF0084E526 /* UPayWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayWebViewController.swift; sourceTree = "<group>"; };
+		290F5D7F23347ECF0084E526 /* UPayCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayCollectionViewController.swift; sourceTree = "<group>"; };
+		290F5D8023347ECF0084E526 /* UPayTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayTableViewController.swift; sourceTree = "<group>"; };
+		290F5D8423347ECF0084E526 /* UPayHomeVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayHomeVM.swift; sourceTree = "<group>"; };
+		290F5D8A23347ECF0084E526 /* UPayHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayHomeViewController.swift; sourceTree = "<group>"; };
+		290F5D8C23347ECF0084E526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		290F5D8E23347ECF0084E526 /* UPayHomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayHomeModel.swift; sourceTree = "<group>"; };
+		290F5D9A23347ECF0084E526 /* JXSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSelectView.swift; sourceTree = "<group>"; };
+		290F5DA723347ECF0084E526 /* UPayScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayScanViewController.swift; sourceTree = "<group>"; };
+		290F5DB823347ECF0084E526 /* UPayAdVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayAdVM.swift; sourceTree = "<group>"; };
+		290F5DBD23347ECF0084E526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Ad.storyboard; sourceTree = "<group>"; };
+		290F5DBE23347ECF0084E526 /* UPayAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayAdViewController.swift; sourceTree = "<group>"; };
+		290F5DC123347ECF0084E526 /* UPayFindModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayFindModel.swift; sourceTree = "<group>"; };
+		290F5DCE23347ECF0084E526 /* JXDropListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXDropListView.swift; sourceTree = "<group>"; };
+		290F5DD723347ECF0084E526 /* JXXBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXXBarView.swift; sourceTree = "<group>"; };
+		290F5DE523347ECF0084E526 /* Property.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Property.storyboard; sourceTree = "<group>"; };
+		290F5DEE23347ECF0084E526 /* UPayLoginRegisterVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayLoginRegisterVM.swift; sourceTree = "<group>"; };
+		290F5DF323347ECF0084E526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		290F5DF723347ECF0084E526 /* UPayLanguageAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayLanguageAlertController.swift; sourceTree = "<group>"; };
+		290F5DF823347ECF0084E526 /* UPayModifyPsdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayModifyPsdViewController.swift; sourceTree = "<group>"; };
+		290F5DF923347ECF0084E526 /* UPayLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayLoginViewController.swift; sourceTree = "<group>"; };
+		290F5E0023347ECF0084E526 /* UPayMyVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayMyVM.swift; sourceTree = "<group>"; };
+		290F5E0223347ECF0084E526 /* UPayVersionVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayVersionVM.swift; sourceTree = "<group>"; };
+		290F5E0823347ECF0084E526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/My.storyboard; sourceTree = "<group>"; };
+		290F5E0923347ECF0084E526 /* UPayMyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayMyViewController.swift; sourceTree = "<group>"; };
+		290F5E0B23347ECF0084E526 /* UPayCommunityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayCommunityModel.swift; sourceTree = "<group>"; };
+		290F5E0C23347ECF0084E526 /* UPayPromotionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayPromotionModel.swift; sourceTree = "<group>"; };
+		290F5E0D23347ECF0084E526 /* UPayVersionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayVersionModel.swift; sourceTree = "<group>"; };
+		290F5E0E23347ECF0084E526 /* UPayIncomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayIncomeModel.swift; sourceTree = "<group>"; };
+		290F5E0F23347ECF0084E526 /* UPayNoticeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayNoticeModel.swift; sourceTree = "<group>"; };
+		290F5E1023347ECF0084E526 /* UPayMyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayMyModel.swift; sourceTree = "<group>"; };
+		290F5E1C23347ECF0084E526 /* UPayCommunityHeadCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayCommunityHeadCell.swift; sourceTree = "<group>"; };
+		290F5E1E23347ECF0084E526 /* UPayIncomRecordsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayIncomRecordsCell.swift; sourceTree = "<group>"; };
+		290F5E1F23347ECF0084E526 /* UPayNotificationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPayNotificationCell.xib; sourceTree = "<group>"; };
+		290F5E2023347ECF0084E526 /* UPayNotificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayNotificationCell.swift; sourceTree = "<group>"; };
+		290F5E2123347ECF0084E526 /* UPayMyListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPayMyListCell.xib; sourceTree = "<group>"; };
+		290F5E2323347ECF0084E526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/UPayCommunityListCell.xib; sourceTree = "<group>"; };
+		290F5E2523347ECF0084E526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/UPayCommunityHeadCell.xib; sourceTree = "<group>"; };
+		290F5E2723347ECF0084E526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/UPayIncomRecordsCell.xib; sourceTree = "<group>"; };
+		290F5E2823347ECF0084E526 /* UPaySelectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPaySelectCell.xib; sourceTree = "<group>"; };
+		290F5E2923347ECF0084E526 /* UPayCommunityListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayCommunityListCell.swift; sourceTree = "<group>"; };
+		290F5E2A23347ECF0084E526 /* UPayMyListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayMyListCell.swift; sourceTree = "<group>"; };
+		290F5E2B23347ECF0084E526 /* UPaySelectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPaySelectCell.swift; sourceTree = "<group>"; };
+		290F5E3923347ECF0084E526 /* UPayVersionAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPayVersionAlertController.swift; sourceTree = "<group>"; };
+		290F5E4123347ED00084E526 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		290F5E4223347ED00084E526 /* LanguageHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageHeader.swift; sourceTree = "<group>"; };
+		290F5E4323347ED00084E526 /* ViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewManager.swift; sourceTree = "<group>"; };
+		290F5E4423347ED00084E526 /* ProjectHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectHeader.swift; sourceTree = "<group>"; };
+		290F5E4523347ED00084E526 /* ConfigurationHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationHeader.swift; sourceTree = "<group>"; };
+		290F5E4723347ED00084E526 /* JXNetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXNetworkError.swift; sourceTree = "<group>"; };
+		290F5E4823347ED00084E526 /* JXBaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXBaseRequest.swift; sourceTree = "<group>"; };
+		290F5E4923347ED00084E526 /* JXNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXNetworkManager.swift; sourceTree = "<group>"; };
+		290F5E4A23347ED00084E526 /* JXRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXRequest.swift; sourceTree = "<group>"; };
+		290F5E4B23347ED00084E526 /* ApiEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiEnum.swift; sourceTree = "<group>"; };
+		290F5EDC2335240E0084E526 /* UPayOrderRecordsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayOrderRecordsController.swift; sourceTree = "<group>"; };
+		290F5EDE2336326B0084E526 /* UPaySetSafePsdController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPaySetSafePsdController.swift; sourceTree = "<group>"; };
+		290F5EE0233656810084E526 /* UPayCertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayCertViewController.swift; sourceTree = "<group>"; };
+		290F5EE22337C1A50084E526 /* UPayCertResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayCertResultController.swift; sourceTree = "<group>"; };
+		290F5EE4233887610084E526 /* UPayAdListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayAdListViewController.swift; sourceTree = "<group>"; };
+		290F5EE92338BE1A0084E526 /* UPayAdListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayAdListCell.swift; sourceTree = "<group>"; };
+		290F5EEA2338BE1A0084E526 /* UPayAdListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UPayAdListCell.xib; sourceTree = "<group>"; };
+		290F5EED233913590084E526 /* UPayAddAd1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayAddAd1ViewController.swift; sourceTree = "<group>"; };
+		290F5EEF2339C8410084E526 /* UPayAddAd2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayAddAd2ViewController.swift; sourceTree = "<group>"; };
+		290F5EF1233A0CEE0084E526 /* CommonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonManager.swift; sourceTree = "<group>"; };
+		290F5EF3233A130A0084E526 /* UPayPropertyVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayPropertyVM.swift; sourceTree = "<group>"; };
+		290F5EF5233A13CD0084E526 /* UPayPropertyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayPropertyModel.swift; sourceTree = "<group>"; };
+		290F5EF7233A5A7F0084E526 /* UPayReceiptAccountListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayReceiptAccountListController.swift; sourceTree = "<group>"; };
+		290F5EF9233A5D4D0084E526 /* UPayReceiptCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayReceiptCell.swift; sourceTree = "<group>"; };
+		290F5EFA233A5D4D0084E526 /* UPayReceiptCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UPayReceiptCell.xib; sourceTree = "<group>"; };
+		290F5EFD233A6FEF0084E526 /* UPayReceiptAccountAddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayReceiptAccountAddController.swift; sourceTree = "<group>"; };
+		290F5EFF233B1A900084E526 /* UPayBankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayBankViewController.swift; sourceTree = "<group>"; };
+		290F5F01233B1AB50084E526 /* UPayNetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayNetViewController.swift; sourceTree = "<group>"; };
+		290F5F03233B2ADD0084E526 /* UPayReceiptAccountVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayReceiptAccountVM.swift; sourceTree = "<group>"; };
+		290F5F05233B2B360084E526 /* UPayReceiptModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayReceiptModel.swift; sourceTree = "<group>"; };
+		291E7E70233B652100331632 /* UPayPropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayPropertyViewController.swift; sourceTree = "<group>"; };
+		291E7E72233B675700331632 /* UPayPropertyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayPropertyCell.swift; sourceTree = "<group>"; };
+		291E7E73233B675700331632 /* UPayPropertyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UPayPropertyCell.xib; sourceTree = "<group>"; };
+		291E7E76233B95D800331632 /* UPayCoinListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayCoinListController.swift; sourceTree = "<group>"; };
+		291E7E78233BA1B500331632 /* UPayCoinListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayCoinListCell.swift; sourceTree = "<group>"; };
+		291E7E79233BA1B500331632 /* UPayCoinListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UPayCoinListCell.xib; sourceTree = "<group>"; };
+		291E7E7C233BAE8D00331632 /* UPayReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayReceiptViewController.swift; sourceTree = "<group>"; };
+		291E7E7E233BBD8000331632 /* UPayExportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayExportViewController.swift; sourceTree = "<group>"; };
+		291E7E80233CB54200331632 /* UPayExportRecordsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayExportRecordsController.swift; sourceTree = "<group>"; };
+		291E7E82233CB87600331632 /* UPayExportRecordsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayExportRecordsCell.swift; sourceTree = "<group>"; };
+		291E7E83233CB87600331632 /* UPayExportRecordsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UPayExportRecordsCell.xib; sourceTree = "<group>"; };
+		291E7E86233CF30B00331632 /* UPayBuyPlatformViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayBuyPlatformViewController.swift; sourceTree = "<group>"; };
+		291E7E88233D04F600331632 /* UPayBuyPlatformRecordsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayBuyPlatformRecordsController.swift; sourceTree = "<group>"; };
+		291E7E8A233D08A700331632 /* UPayBuyPlatformModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayBuyPlatformModel.swift; sourceTree = "<group>"; };
+		291E7E8C233DC9C500331632 /* UPayBuyPlatformVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayBuyPlatformVM.swift; sourceTree = "<group>"; };
+		291E7E8E233DCDEE00331632 /* UPayBuyPlatformListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayBuyPlatformListCell.swift; sourceTree = "<group>"; };
+		291E7E8F233DCDEE00331632 /* UPayBuyPlatformListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UPayBuyPlatformListCell.xib; sourceTree = "<group>"; };
+		291E7E92233E196C00331632 /* UPayBuyPlatformDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayBuyPlatformDetailController.swift; sourceTree = "<group>"; };
+		291E7E94233E3C0700331632 /* UPayDetailTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayDetailTableController.swift; sourceTree = "<group>"; };
+		291E7E96233F8ADD00331632 /* UPayBuyPlatformDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayBuyPlatformDetailViewController.swift; sourceTree = "<group>"; };
+		291E7E982340DB7600331632 /* JXLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXLog.swift; sourceTree = "<group>"; };
+		29245586234DEAF3007CE073 /* UPayAddAd3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayAddAd3ViewController.swift; sourceTree = "<group>"; };
+		29245588234F3B75007CE073 /* UPaySinglePropertyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPaySinglePropertyController.swift; sourceTree = "<group>"; };
+		2924558A234F693D007CE073 /* UPayPropertyRecordsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayPropertyRecordsCell.swift; sourceTree = "<group>"; };
+		2924558B234F693D007CE073 /* UPayPropertyRecordsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UPayPropertyRecordsCell.xib; sourceTree = "<group>"; };
+		2927B8A92346003C00A938A3 /* UPayBuyListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayBuyListCell.swift; sourceTree = "<group>"; };
+		2927B8AA2346003C00A938A3 /* UPayBuyListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UPayBuyListCell.xib; sourceTree = "<group>"; };
+		2927B8AD234625AF00A938A3 /* UPayOrderBuyListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayOrderBuyListController.swift; sourceTree = "<group>"; };
+		2927B8AF2347238A00A938A3 /* UPayOrderBuyingDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayOrderBuyingDetailController.swift; sourceTree = "<group>"; };
+		2927B8B123477FC300A938A3 /* UPayOrderBuyedDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayOrderBuyedDetailController.swift; sourceTree = "<group>"; };
+		29A9A9322355BF8000489648 /* UPayVersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayVersonViewController.swift; sourceTree = "<group>"; };
+		29E7662223410119007DA4A8 /* UPayHomeOrdeListrCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPayHomeOrdeListrCell.swift; sourceTree = "<group>"; };
+		29E7662323410119007DA4A8 /* UPayHomeOrdeListrCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UPayHomeOrdeListrCell.xib; sourceTree = "<group>"; };
+		29E76626234201B1007DA4A8 /* UPaySelectOrderRecordsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPaySelectOrderRecordsController.swift; sourceTree = "<group>"; };
+		A21E9A82C896D3FFCE87CABF /* Pods-UPayCustomer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPayCustomer.release.xcconfig"; path = "Target Support Files/Pods-UPayCustomer/Pods-UPayCustomer.release.xcconfig"; sourceTree = "<group>"; };
+		DA57543AC687B554AF37E7A8 /* Pods_UPayCustomer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UPayCustomer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9ED7B660419194E9D98FF96 /* Pods-UPayCustomer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPayCustomer.debug.xcconfig"; path = "Target Support Files/Pods-UPayCustomer/Pods-UPayCustomer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		290F5D612334791A0084E526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCF9372DAEBA0B3765CFAEE /* Pods_UPayCustomer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		290F5D5B2334791A0084E526 = {
+			isa = PBXGroup;
+			children = (
+				290F5D662334791A0084E526 /* UPayCustomer */,
+				290F5D652334791A0084E526 /* Products */,
+				8A5CA597D00A1A12C72E06A9 /* Pods */,
+				7BC534046026C748A20CFDA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		290F5D652334791A0084E526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				290F5D642334791A0084E526 /* UPayCustomer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		290F5D662334791A0084E526 /* UPayCustomer */ = {
+			isa = PBXGroup;
+			children = (
+				290F5D7923347ECF0084E526 /* Base */,
+				290F5E3D23347ED00084E526 /* Common */,
+				290F5D8123347ECF0084E526 /* Main */,
+				290F5E4623347ED00084E526 /* Network */,
+				290F5D672334791A0084E526 /* AppDelegate.swift */,
+				290F5D692334791A0084E526 /* ViewController.swift */,
+				290F5D6B2334791A0084E526 /* Main.storyboard */,
+				290F5D6E2334791C0084E526 /* Assets.xcassets */,
+				290F5D702334791C0084E526 /* LaunchScreen.storyboard */,
+				290F5D732334791C0084E526 /* Info.plist */,
+			);
+			path = UPayCustomer;
+			sourceTree = "<group>";
+		};
+		290F5D7923347ECF0084E526 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				290F5D7A23347ECF0084E526 /* UPayBaseModel.swift */,
+				290F5D7B23347ECF0084E526 /* UPayTabBarViewController.swift */,
+				290F5D7C23347ECF0084E526 /* UPayNavigationController.swift */,
+				290F5D7D23347ECF0084E526 /* UPayBaseViewController.swift */,
+				290F5D7E23347ECF0084E526 /* UPayWebViewController.swift */,
+				290F5D7F23347ECF0084E526 /* UPayCollectionViewController.swift */,
+				290F5D8023347ECF0084E526 /* UPayTableViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		290F5D8123347ECF0084E526 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				290F5D8223347ECF0084E526 /* Order */,
+				290F5DB523347ECF0084E526 /* Ad */,
+				290F5DE123347ECF0084E526 /* Property */,
+				290F5DEC23347ECF0084E526 /* LoginRegister */,
+				290F5DFA23347ECF0084E526 /* My */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		290F5D8223347ECF0084E526 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				290F5D8323347ECF0084E526 /* ViewModel */,
+				290F5D8A23347ECF0084E526 /* UPayHomeViewController.swift */,
+				290F5D8B23347ECF0084E526 /* Home.storyboard */,
+				290F5D8D23347ECF0084E526 /* Model */,
+				290F5D9023347ECF0084E526 /* View */,
+				290F5DA423347ECF0084E526 /* ViewController */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		290F5D8323347ECF0084E526 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				290F5D8423347ECF0084E526 /* UPayHomeVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		290F5D8D23347ECF0084E526 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				290F5D8E23347ECF0084E526 /* UPayHomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		290F5D9023347ECF0084E526 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				290F5D9A23347ECF0084E526 /* JXSelectView.swift */,
+				29E7662223410119007DA4A8 /* UPayHomeOrdeListrCell.swift */,
+				29E7662323410119007DA4A8 /* UPayHomeOrdeListrCell.xib */,
+				2927B8A92346003C00A938A3 /* UPayBuyListCell.swift */,
+				2927B8AA2346003C00A938A3 /* UPayBuyListCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		290F5DA423347ECF0084E526 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				290F5EDC2335240E0084E526 /* UPayOrderRecordsController.swift */,
+				29E76626234201B1007DA4A8 /* UPaySelectOrderRecordsController.swift */,
+				2927B8AD234625AF00A938A3 /* UPayOrderBuyListController.swift */,
+				2927B8AF2347238A00A938A3 /* UPayOrderBuyingDetailController.swift */,
+				2927B8B123477FC300A938A3 /* UPayOrderBuyedDetailController.swift */,
+				290F5DA723347ECF0084E526 /* UPayScanViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		290F5DB523347ECF0084E526 /* Ad */ = {
+			isa = PBXGroup;
+			children = (
+				290F5DB623347ECF0084E526 /* ViewModel */,
+				290F5DBC23347ECF0084E526 /* Ad.storyboard */,
+				290F5DBE23347ECF0084E526 /* UPayAdViewController.swift */,
+				290F5DBF23347ECF0084E526 /* Model */,
+				290F5DC223347ECF0084E526 /* View */,
+				290F5DDB23347ECF0084E526 /* ViewController */,
+			);
+			path = Ad;
+			sourceTree = "<group>";
+		};
+		290F5DB623347ECF0084E526 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				290F5DB823347ECF0084E526 /* UPayAdVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		290F5DBF23347ECF0084E526 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				290F5DC123347ECF0084E526 /* UPayFindModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		290F5DC223347ECF0084E526 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				290F5DCE23347ECF0084E526 /* JXDropListView.swift */,
+				290F5DD723347ECF0084E526 /* JXXBarView.swift */,
+				290F5EE92338BE1A0084E526 /* UPayAdListCell.swift */,
+				290F5EEA2338BE1A0084E526 /* UPayAdListCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		290F5DDB23347ECF0084E526 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				290F5EE4233887610084E526 /* UPayAdListViewController.swift */,
+				290F5EED233913590084E526 /* UPayAddAd1ViewController.swift */,
+				290F5EEF2339C8410084E526 /* UPayAddAd2ViewController.swift */,
+				29245586234DEAF3007CE073 /* UPayAddAd3ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		290F5DE123347ECF0084E526 /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				290F5DE323347ECF0084E526 /* ViewModel */,
+				290F5DE523347ECF0084E526 /* Property.storyboard */,
+				291E7E70233B652100331632 /* UPayPropertyViewController.swift */,
+				290F5DE623347ECF0084E526 /* Model */,
+				290F5DE823347ECF0084E526 /* View */,
+				290F5DEB23347ECF0084E526 /* ViewController */,
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
+		290F5DE323347ECF0084E526 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				290F5EF3233A130A0084E526 /* UPayPropertyVM.swift */,
+				291E7E8C233DC9C500331632 /* UPayBuyPlatformVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		290F5DE623347ECF0084E526 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				290F5EF5233A13CD0084E526 /* UPayPropertyModel.swift */,
+				291E7E8A233D08A700331632 /* UPayBuyPlatformModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		290F5DE823347ECF0084E526 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				291E7E72233B675700331632 /* UPayPropertyCell.swift */,
+				291E7E73233B675700331632 /* UPayPropertyCell.xib */,
+				2924558A234F693D007CE073 /* UPayPropertyRecordsCell.swift */,
+				2924558B234F693D007CE073 /* UPayPropertyRecordsCell.xib */,
+				291E7E78233BA1B500331632 /* UPayCoinListCell.swift */,
+				291E7E79233BA1B500331632 /* UPayCoinListCell.xib */,
+				291E7E82233CB87600331632 /* UPayExportRecordsCell.swift */,
+				291E7E83233CB87600331632 /* UPayExportRecordsCell.xib */,
+				291E7E8E233DCDEE00331632 /* UPayBuyPlatformListCell.swift */,
+				291E7E8F233DCDEE00331632 /* UPayBuyPlatformListCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		290F5DEB23347ECF0084E526 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				29245588234F3B75007CE073 /* UPaySinglePropertyController.swift */,
+				291E7E76233B95D800331632 /* UPayCoinListController.swift */,
+				291E7E7C233BAE8D00331632 /* UPayReceiptViewController.swift */,
+				291E7E7E233BBD8000331632 /* UPayExportViewController.swift */,
+				291E7E80233CB54200331632 /* UPayExportRecordsController.swift */,
+				291E7E86233CF30B00331632 /* UPayBuyPlatformViewController.swift */,
+				291E7E88233D04F600331632 /* UPayBuyPlatformRecordsController.swift */,
+				291E7E92233E196C00331632 /* UPayBuyPlatformDetailController.swift */,
+				291E7E94233E3C0700331632 /* UPayDetailTableController.swift */,
+				291E7E96233F8ADD00331632 /* UPayBuyPlatformDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		290F5DEC23347ECF0084E526 /* LoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				290F5DED23347ECF0084E526 /* ViewModel */,
+				290F5DF223347ECF0084E526 /* Login.storyboard */,
+				290F5DF523347ECF0084E526 /* ViewController */,
+			);
+			path = LoginRegister;
+			sourceTree = "<group>";
+		};
+		290F5DED23347ECF0084E526 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				290F5DEE23347ECF0084E526 /* UPayLoginRegisterVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		290F5DF523347ECF0084E526 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				290F5DF723347ECF0084E526 /* UPayLanguageAlertController.swift */,
+				290F5DF823347ECF0084E526 /* UPayModifyPsdViewController.swift */,
+				290F5EDE2336326B0084E526 /* UPaySetSafePsdController.swift */,
+				290F5EE0233656810084E526 /* UPayCertViewController.swift */,
+				290F5EE22337C1A50084E526 /* UPayCertResultController.swift */,
+				290F5DF923347ECF0084E526 /* UPayLoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		290F5DFA23347ECF0084E526 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				290F5DFB23347ECF0084E526 /* ViewModel */,
+				290F5E0723347ECF0084E526 /* My.storyboard */,
+				290F5E0923347ECF0084E526 /* UPayMyViewController.swift */,
+				290F5E0A23347ECF0084E526 /* Model */,
+				290F5E1123347ECF0084E526 /* View */,
+				290F5E2C23347ECF0084E526 /* ViewController */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		290F5DFB23347ECF0084E526 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				290F5E0023347ECF0084E526 /* UPayMyVM.swift */,
+				290F5E0223347ECF0084E526 /* UPayVersionVM.swift */,
+				290F5F03233B2ADD0084E526 /* UPayReceiptAccountVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		290F5E0A23347ECF0084E526 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				290F5E0B23347ECF0084E526 /* UPayCommunityModel.swift */,
+				290F5E0C23347ECF0084E526 /* UPayPromotionModel.swift */,
+				290F5E0D23347ECF0084E526 /* UPayVersionModel.swift */,
+				290F5E0E23347ECF0084E526 /* UPayIncomeModel.swift */,
+				290F5E0F23347ECF0084E526 /* UPayNoticeModel.swift */,
+				290F5E1023347ECF0084E526 /* UPayMyModel.swift */,
+				290F5F05233B2B360084E526 /* UPayReceiptModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		290F5E1123347ECF0084E526 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				290F5E1C23347ECF0084E526 /* UPayCommunityHeadCell.swift */,
+				290F5E1E23347ECF0084E526 /* UPayIncomRecordsCell.swift */,
+				290F5E1F23347ECF0084E526 /* UPayNotificationCell.xib */,
+				290F5E2023347ECF0084E526 /* UPayNotificationCell.swift */,
+				290F5E2123347ECF0084E526 /* UPayMyListCell.xib */,
+				290F5E2223347ECF0084E526 /* UPayCommunityListCell.xib */,
+				290F5E2423347ECF0084E526 /* UPayCommunityHeadCell.xib */,
+				290F5E2623347ECF0084E526 /* UPayIncomRecordsCell.xib */,
+				290F5E2823347ECF0084E526 /* UPaySelectCell.xib */,
+				290F5E2923347ECF0084E526 /* UPayCommunityListCell.swift */,
+				290F5E2A23347ECF0084E526 /* UPayMyListCell.swift */,
+				290F5E2B23347ECF0084E526 /* UPaySelectCell.swift */,
+				290F5EF9233A5D4D0084E526 /* UPayReceiptCell.swift */,
+				290F5EFA233A5D4D0084E526 /* UPayReceiptCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		290F5E2C23347ECF0084E526 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				290F5E3923347ECF0084E526 /* UPayVersionAlertController.swift */,
+				29A9A9322355BF8000489648 /* UPayVersonViewController.swift */,
+				290F5EF7233A5A7F0084E526 /* UPayReceiptAccountListController.swift */,
+				290F5EFD233A6FEF0084E526 /* UPayReceiptAccountAddController.swift */,
+				290F5EFF233B1A900084E526 /* UPayBankViewController.swift */,
+				290F5F01233B1AB50084E526 /* UPayNetViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		290F5E3D23347ED00084E526 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				290F5E4123347ED00084E526 /* UserManager.swift */,
+				290F5EF1233A0CEE0084E526 /* CommonManager.swift */,
+				290F5E4223347ED00084E526 /* LanguageHeader.swift */,
+				291E7E982340DB7600331632 /* JXLog.swift */,
+				290F5E4323347ED00084E526 /* ViewManager.swift */,
+				290F5E4423347ED00084E526 /* ProjectHeader.swift */,
+				290F5E4523347ED00084E526 /* ConfigurationHeader.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		290F5E4623347ED00084E526 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				290F5E4723347ED00084E526 /* JXNetworkError.swift */,
+				290F5E4823347ED00084E526 /* JXBaseRequest.swift */,
+				290F5E4923347ED00084E526 /* JXNetworkManager.swift */,
+				290F5E4A23347ED00084E526 /* JXRequest.swift */,
+				290F5E4B23347ED00084E526 /* ApiEnum.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7BC534046026C748A20CFDA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA57543AC687B554AF37E7A8 /* Pods_UPayCustomer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A5CA597D00A1A12C72E06A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9ED7B660419194E9D98FF96 /* Pods-UPayCustomer.debug.xcconfig */,
+				A21E9A82C896D3FFCE87CABF /* Pods-UPayCustomer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		290F5D632334791A0084E526 /* UPayCustomer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290F5D762334791C0084E526 /* Build configuration list for PBXNativeTarget "UPayCustomer" */;
+			buildPhases = (
+				F3717A5286C200826ED0092C /* [CP] Check Pods Manifest.lock */,
+				290F5D602334791A0084E526 /* Sources */,
+				290F5D612334791A0084E526 /* Frameworks */,
+				290F5D622334791A0084E526 /* Resources */,
+				B4FC87F863552002268BB256 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UPayCustomer;
+			productName = UPayCustomer;
+			productReference = 290F5D642334791A0084E526 /* UPayCustomer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		290F5D5C2334791A0084E526 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = COB;
+				TargetAttributes = {
+					290F5D632334791A0084E526 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 290F5D5F2334791A0084E526 /* Build configuration list for PBXProject "UPayCustomer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 290F5D5B2334791A0084E526;
+			productRefGroup = 290F5D652334791A0084E526 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				290F5D632334791A0084E526 /* UPayCustomer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		290F5D622334791A0084E526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290F5EA823347ED00084E526 /* My.storyboard in Resources */,
+				291E7E91233DCDEE00331632 /* UPayBuyPlatformListCell.xib in Resources */,
+				290F5E9323347ED00084E526 /* Property.storyboard in Resources */,
+				2924558D234F693D007CE073 /* UPayPropertyRecordsCell.xib in Resources */,
+				290F5EB923347ED00084E526 /* UPayMyListCell.xib in Resources */,
+				290F5EBA23347ED00084E526 /* UPayCommunityListCell.xib in Resources */,
+				290F5D722334791C0084E526 /* LaunchScreen.storyboard in Resources */,
+				290F5EBC23347ED00084E526 /* UPayIncomRecordsCell.xib in Resources */,
+				290F5E5823347ED00084E526 /* Home.storyboard in Resources */,
+				29E7662523410119007DA4A8 /* UPayHomeOrdeListrCell.xib in Resources */,
+				290F5E9923347ED00084E526 /* Login.storyboard in Resources */,
+				290F5EFC233A5D4D0084E526 /* UPayReceiptCell.xib in Resources */,
+				291E7E75233B675700331632 /* UPayPropertyCell.xib in Resources */,
+				290F5D6F2334791C0084E526 /* Assets.xcassets in Resources */,
+				290F5EBD23347ED00084E526 /* UPaySelectCell.xib in Resources */,
+				290F5EB723347ED00084E526 /* UPayNotificationCell.xib in Resources */,
+				290F5EEC2338BE1A0084E526 /* UPayAdListCell.xib in Resources */,
+				2927B8AC2346003C00A938A3 /* UPayBuyListCell.xib in Resources */,
+				290F5E7923347ED00084E526 /* Ad.storyboard in Resources */,
+				290F5D6D2334791A0084E526 /* Main.storyboard in Resources */,
+				291E7E85233CB87600331632 /* UPayExportRecordsCell.xib in Resources */,
+				291E7E7B233BA1B500331632 /* UPayCoinListCell.xib in Resources */,
+				290F5EBB23347ED00084E526 /* UPayCommunityHeadCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B4FC87F863552002268BB256 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UPayCustomer/Pods-UPayCustomer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UPayCustomer/Pods-UPayCustomer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UPayCustomer/Pods-UPayCustomer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3717A5286C200826ED0092C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UPayCustomer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		290F5D602334791A0084E526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291E7E74233B675700331632 /* UPayPropertyCell.swift in Sources */,
+				290F5EAB23347ED00084E526 /* UPayPromotionModel.swift in Sources */,
+				290F5EA523347ED00084E526 /* UPayVersionVM.swift in Sources */,
+				29245589234F3B75007CE073 /* UPaySinglePropertyController.swift in Sources */,
+				29E7662423410119007DA4A8 /* UPayHomeOrdeListrCell.swift in Sources */,
+				291E7E93233E196C00331632 /* UPayBuyPlatformDetailController.swift in Sources */,
+				290F5EE1233656810084E526 /* UPayCertViewController.swift in Sources */,
+				291E7E8D233DC9C500331632 /* UPayBuyPlatformVM.swift in Sources */,
+				290F5E6A23347ED00084E526 /* UPayScanViewController.swift in Sources */,
+				290F5ED323347ED00084E526 /* LanguageHeader.swift in Sources */,
+				290F5F02233B1AB50084E526 /* UPayNetViewController.swift in Sources */,
+				291E7E97233F8ADD00331632 /* UPayBuyPlatformDetailViewController.swift in Sources */,
+				291E7E77233B95D800331632 /* UPayCoinListController.swift in Sources */,
+				290F5EBE23347ED00084E526 /* UPayCommunityListCell.swift in Sources */,
+				290F5EF02339C8410084E526 /* UPayAddAd2ViewController.swift in Sources */,
+				290F5EE32337C1A50084E526 /* UPayCertResultController.swift in Sources */,
+				290F5D6A2334791A0084E526 /* ViewController.swift in Sources */,
+				290F5EB823347ED00084E526 /* UPayNotificationCell.swift in Sources */,
+				291E7E992340DB7600331632 /* JXLog.swift in Sources */,
+				291E7E84233CB87600331632 /* UPayExportRecordsCell.swift in Sources */,
+				291E7E81233CB54200331632 /* UPayExportRecordsController.swift in Sources */,
+				290F5E9723347ED00084E526 /* UPayLoginRegisterVM.swift in Sources */,
+				290F5ED223347ED00084E526 /* UserManager.swift in Sources */,
+				290F5EDF2336326B0084E526 /* UPaySetSafePsdController.swift in Sources */,
+				2927B8AE234625AF00A938A3 /* UPayOrderBuyListController.swift in Sources */,
+				290F5E5023347ED00084E526 /* UPayWebViewController.swift in Sources */,
+				291E7E71233B652100331632 /* UPayPropertyViewController.swift in Sources */,
+				290F5F04233B2ADD0084E526 /* UPayReceiptAccountVM.swift in Sources */,
+				290F5E8823347ED00084E526 /* JXXBarView.swift in Sources */,
+				290F5EA323347ED00084E526 /* UPayMyVM.swift in Sources */,
+				290F5EFE233A6FEF0084E526 /* UPayReceiptAccountAddController.swift in Sources */,
+				290F5EEB2338BE1A0084E526 /* UPayAdListCell.swift in Sources */,
+				290F5EB423347ED00084E526 /* UPayCommunityHeadCell.swift in Sources */,
+				291E7E7F233BBD8000331632 /* UPayExportViewController.swift in Sources */,
+				290F5F00233B1A900084E526 /* UPayBankViewController.swift in Sources */,
+				290F5E5123347ED00084E526 /* UPayCollectionViewController.swift in Sources */,
+				291E7E90233DCDEE00331632 /* UPayBuyPlatformListCell.swift in Sources */,
+				290F5E7C23347ED00084E526 /* UPayFindModel.swift in Sources */,
+				290F5EB623347ED00084E526 /* UPayIncomRecordsCell.swift in Sources */,
+				2927B8B223477FC300A938A3 /* UPayOrderBuyedDetailController.swift in Sources */,
+				290F5ED523347ED00084E526 /* ProjectHeader.swift in Sources */,
+				29E76627234201B1007DA4A8 /* UPaySelectOrderRecordsController.swift in Sources */,
+				290F5EDA23347ED00084E526 /* JXRequest.swift in Sources */,
+				290F5EF2233A0CEE0084E526 /* CommonManager.swift in Sources */,
+				290F5E9D23347ED00084E526 /* UPayModifyPsdViewController.swift in Sources */,
+				290F5ED623347ED00084E526 /* ConfigurationHeader.swift in Sources */,
+				290F5E4F23347ED00084E526 /* UPayBaseViewController.swift in Sources */,
+				290F5E6023347ED00084E526 /* JXSelectView.swift in Sources */,
+				290F5E5223347ED00084E526 /* UPayTableViewController.swift in Sources */,
+				290F5E7A23347ED00084E526 /* UPayAdViewController.swift in Sources */,
+				2927B8B02347238A00A938A3 /* UPayOrderBuyingDetailController.swift in Sources */,
+				290F5E4C23347ED00084E526 /* UPayBaseModel.swift in Sources */,
+				291E7E95233E3C0700331632 /* UPayDetailTableController.swift in Sources */,
+				291E7E87233CF30B00331632 /* UPayBuyPlatformViewController.swift in Sources */,
+				290F5EAD23347ED00084E526 /* UPayIncomeModel.swift in Sources */,
+				291E7E8B233D08A700331632 /* UPayBuyPlatformModel.swift in Sources */,
+				2927B8AB2346003C00A938A3 /* UPayBuyListCell.swift in Sources */,
+				290F5EAF23347ED00084E526 /* UPayMyModel.swift in Sources */,
+				290F5E4D23347ED00084E526 /* UPayTabBarViewController.swift in Sources */,
+				290F5EBF23347ED00084E526 /* UPayMyListCell.swift in Sources */,
+				290F5EDD2335240E0084E526 /* UPayOrderRecordsController.swift in Sources */,
+				290F5ED923347ED00084E526 /* JXNetworkManager.swift in Sources */,
+				290F5EF4233A130A0084E526 /* UPayPropertyVM.swift in Sources */,
+				290F5EA923347ED00084E526 /* UPayMyViewController.swift in Sources */,
+				290F5EFB233A5D4D0084E526 /* UPayReceiptCell.swift in Sources */,
+				290F5D682334791A0084E526 /* AppDelegate.swift in Sources */,
+				290F5ED823347ED00084E526 /* JXBaseRequest.swift in Sources */,
+				291E7E7D233BAE8D00331632 /* UPayReceiptViewController.swift in Sources */,
+				290F5E9E23347ED00084E526 /* UPayLoginViewController.swift in Sources */,
+				291E7E7A233BA1B500331632 /* UPayCoinListCell.swift in Sources */,
+				290F5ED423347ED00084E526 /* ViewManager.swift in Sources */,
+				290F5E4E23347ED00084E526 /* UPayNavigationController.swift in Sources */,
+				290F5ECD23347ED00084E526 /* UPayVersionAlertController.swift in Sources */,
+				290F5E8223347ED00084E526 /* JXDropListView.swift in Sources */,
+				290F5F06233B2B360084E526 /* UPayReceiptModel.swift in Sources */,
+				29245587234DEAF3007CE073 /* UPayAddAd3ViewController.swift in Sources */,
+				29A9A9332355BF8000489648 /* UPayVersonViewController.swift in Sources */,
+				290F5EAC23347ED00084E526 /* UPayVersionModel.swift in Sources */,
+				290F5EC023347ED00084E526 /* UPaySelectCell.swift in Sources */,
+				290F5E5323347ED00084E526 /* UPayHomeVM.swift in Sources */,
+				290F5EF6233A13CD0084E526 /* UPayPropertyModel.swift in Sources */,
+				290F5E7723347ED00084E526 /* UPayAdVM.swift in Sources */,
+				291E7E89233D04F600331632 /* UPayBuyPlatformRecordsController.swift in Sources */,
+				290F5EAA23347ED00084E526 /* UPayCommunityModel.swift in Sources */,
+				290F5EAE23347ED00084E526 /* UPayNoticeModel.swift in Sources */,
+				2924558C234F693D007CE073 /* UPayPropertyRecordsCell.swift in Sources */,
+				290F5EF8233A5A7F0084E526 /* UPayReceiptAccountListController.swift in Sources */,
+				290F5E5923347ED00084E526 /* UPayHomeModel.swift in Sources */,
+				290F5ED723347ED00084E526 /* JXNetworkError.swift in Sources */,
+				290F5E5723347ED00084E526 /* UPayHomeViewController.swift in Sources */,
+				290F5EE5233887610084E526 /* UPayAdListViewController.swift in Sources */,
+				290F5EEE233913590084E526 /* UPayAddAd1ViewController.swift in Sources */,
+				290F5E9C23347ED00084E526 /* UPayLanguageAlertController.swift in Sources */,
+				290F5EDB23347ED00084E526 /* ApiEnum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		290F5D6B2334791A0084E526 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290F5D6C2334791A0084E526 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		290F5D702334791C0084E526 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290F5D712334791C0084E526 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		290F5D8B23347ECF0084E526 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290F5D8C23347ECF0084E526 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		290F5DBC23347ECF0084E526 /* Ad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290F5DBD23347ECF0084E526 /* Base */,
+			);
+			name = Ad.storyboard;
+			sourceTree = "<group>";
+		};
+		290F5DF223347ECF0084E526 /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290F5DF323347ECF0084E526 /* Base */,
+			);
+			name = Login.storyboard;
+			sourceTree = "<group>";
+		};
+		290F5E0723347ECF0084E526 /* My.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290F5E0823347ECF0084E526 /* Base */,
+			);
+			name = My.storyboard;
+			sourceTree = "<group>";
+		};
+		290F5E2223347ECF0084E526 /* UPayCommunityListCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290F5E2323347ECF0084E526 /* Base */,
+			);
+			name = UPayCommunityListCell.xib;
+			sourceTree = "<group>";
+		};
+		290F5E2423347ECF0084E526 /* UPayCommunityHeadCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290F5E2523347ECF0084E526 /* Base */,
+			);
+			name = UPayCommunityHeadCell.xib;
+			sourceTree = "<group>";
+		};
+		290F5E2623347ECF0084E526 /* UPayIncomRecordsCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290F5E2723347ECF0084E526 /* Base */,
+			);
+			name = UPayIncomRecordsCell.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		290F5D742334791C0084E526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		290F5D752334791C0084E526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		290F5D772334791C0084E526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9ED7B660419194E9D98FF96 /* Pods-UPayCustomer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YA4DP26GTS;
+				INFOPLIST_FILE = UPayCustomer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UPay.UPayCustomer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		290F5D782334791C0084E526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A21E9A82C896D3FFCE87CABF /* Pods-UPayCustomer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YA4DP26GTS;
+				INFOPLIST_FILE = UPayCustomer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UPay.UPayCustomer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		290F5D5F2334791A0084E526 /* Build configuration list for PBXProject "UPayCustomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290F5D742334791C0084E526 /* Debug */,
+				290F5D752334791C0084E526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290F5D762334791C0084E526 /* Build configuration list for PBXNativeTarget "UPayCustomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290F5D772334791C0084E526 /* Debug */,
+				290F5D782334791C0084E526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 290F5D5C2334791A0084E526 /* Project object */;
+}

@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8F9FD7EF-AADC-443B-A701-2CAEC55718C2"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96AAB00B-3F9F-4E81-9E54-3689D0051E64"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UPayCustomer/Main/LoginRegister/ViewController/UPayCertViewController.swift"
+            timestampString = "591454344.3030061"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C35E84CD-C5DE-45A9-9A23-09EB2BEBB90E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UPayCustomer/Main/LoginRegister/ViewController/UPayCertViewController.swift"
+            timestampString = "591454344.303299"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
+            landmarkName = "imagePickerControllerDidCancel(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB8DEB7A-B636-4482-8C44-4C349568DBAF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UPayCustomer/Main/LoginRegister/ViewModel/UPayLoginRegisterVM.swift"
+            timestampString = "591092238.636199"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "customConstruct()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCB55D50-F600-4867-8D8B-926D0659BFF7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UPayCustomer/Main/LoginRegister/ViewModel/UPayLoginRegisterVM.swift"
+            timestampString = "591092238.636251"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "customConstruct()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84816050-3644-4DAD-81ED-ED36946874D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UPayCustomer/Main/My/ViewModel/UPayReceiptAccountVM.swift"
+            timestampString = "591267646.484977"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "addOrEditAccount(id:account:name:type:bank:businessCardQrcode:safePassword:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "84816050-3644-4DAD-81ED-ED36946874D7 - f2dcd306dd6ef4c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 0 of UPayCustomer.UPayReceiptAccountVM.addOrEditAccount(id: Swift.String, account: Swift.String, name: Swift.String, type: Swift.Int, bank: Swift.String, businessCardQrcode: Swift.String, safePassword: Swift.String, completion: (Swift.Optional&lt;Any&gt;, Swift.String, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "UPayCustomer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac1/Desktop/UPayCustomer/UPayCustomer/Main/My/ViewModel/UPayReceiptAccountVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "84816050-3644-4DAD-81ED-ED36946874D7 - 338a7d7ecf50d4c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UPayCustomer.UPayReceiptAccountVM.addOrEditAccount(id: Swift.String, account: Swift.String, name: Swift.String, type: Swift.Int, bank: Swift.String, businessCardQrcode: Swift.String, safePassword: Swift.String, completion: (Swift.Optional&lt;Any&gt;, Swift.String, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "UPayCustomer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac1/Desktop/UPayCustomer/UPayCustomer/Main/My/ViewModel/UPayReceiptAccountVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "417">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81550846-A678-4D30-815D-B504DBDC5E9A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UPayCustomer/Main/My/ViewModel/UPayReceiptAccountVM.swift"
+            timestampString = "591267646.4850399"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "addOrEditAccount(id:account:name:type:bank:businessCardQrcode:safePassword:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A367767F-2015-489F-99BE-8DB877AEE532"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UPayCustomer/Main/Property/ViewController/UPayReceiptViewController.swift"
+            timestampString = "591372210.720467"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C5AA5DD-7F42-4479-B3A1-97A337625B7F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UPayCustomer/Main/Property/ViewController/UPayExportViewController.swift"
+            timestampString = "591454344.303532"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "247"
+            endingLineNumber = "247"
+            landmarkName = "UPayExportViewController"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AEA011A9-2C43-48A8-A327-B6AD04035BC6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/JXFoundation/JXFoundation/Classes/Core/JXManager/JXKeyboardToolBar.swift"
+            timestampString = "591454344.303741"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "changeResponder(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "998A3594-DAB8-4C76-8CA5-78E250E93E20"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UPayCustomer/Main/Property/ViewController/UPayBuyPlatformDetailViewController.swift"
+            timestampString = "591529662.51805"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "keyboard"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E2942AA-3EB9-4344-A6C9-CE7CF223BAD5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/JXFoundation/JXFoundation/Classes/Core/JXManager/JXKeyboardToolBar.swift"
+            timestampString = "591454344.30417"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "268"
+            endingLineNumber = "268"
+            landmarkName = "didBeginEditing(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9E2942AA-3EB9-4344-A6C9-CE7CF223BAD5 - 34772f0f1302793"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JXFoundation.JXKeyboardToolBar.didBeginEditing(__C.UIView) -&gt; ()"
+                  moduleName = "JXFoundation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac1/Desktop/UPayCustomer/Pods/JXFoundation/JXFoundation/Classes/Core/JXManager/JXKeyboardToolBar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "268"
+                  endingLineNumber = "268"
+                  offsetFromSymbolStart = "2592">
+               </Location>
+               <Location
+                  uuid = "9E2942AA-3EB9-4344-A6C9-CE7CF223BAD5 - 34772f0f1302793"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JXFoundation.JXKeyboardToolBar.didBeginEditing(__C.UIView) -&gt; ()"
+                  moduleName = "JXFoundation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac1/Desktop/UPayCustomer/Pods/JXFoundation/JXFoundation/Classes/Core/JXManager/JXKeyboardToolBar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "268"
+                  endingLineNumber = "268"
+                  offsetFromSymbolStart = "2601">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75681D8B-E809-4585-833A-3AA1373296E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/JXFoundation/JXFoundation/Classes/Core/JXManager/JXKeyboardToolBar.swift"
+            timestampString = "591454344.304227"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "269"
+            endingLineNumber = "269"
+            landmarkName = "didBeginEditing(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67B282D9-9BF1-4ED5-AC72-714436716D42"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UPayCustomer/Main/Property/ViewController/UPayBuyPlatformDetailViewController.swift"
+            timestampString = "591529662.518183"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "259"
+            endingLineNumber = "259"
+            landmarkName = "copy1Action(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79E98D60-4404-4039-AC50-4A4BE721E6D2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/JXFoundation/JXFoundation/Classes/Core/JXManager/JXKeyboardToolBar.swift"
+            timestampString = "591454344.304325"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
+            landmarkName = "JXKeyboardToolBar"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F3904AC-D7B5-4EC4-B6B2-3296F219DFC5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/JXFoundation/JXFoundation/Classes/Core/JXManager/JXKeyboardToolBar.swift"
+            timestampString = "591454344.304373"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "247"
+            endingLineNumber = "247"
+            landmarkName = "didBeginEditing(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2AFA70F-CE51-4A6C-BDD6-7FAE7EB3CE73"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/JXFoundation/JXFoundation/Classes/Core/JXManager/JXKeyboardToolBar.swift"
+            timestampString = "591454344.30442"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
+            landmarkName = "changeResponder(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1FAC3C45-18B6-4CF9-A101-F071E4A45C83"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/JXFoundation/JXFoundation/Classes/Basic/ViewController/JXBaseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "customNavigationBar"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "1FAC3C45-18B6-4CF9-A101-F071E4A45C83 - e7c033a18cc62119"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JXFoundation.JXBaseViewController.customNavigationBar.getter : JXFoundation.JXNavigationBar"
+                  moduleName = "JXFoundation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac1/Desktop/UPayCustomer/Pods/JXFoundation/JXFoundation/Classes/Basic/ViewController/JXBaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "370">
+               </Location>
+               <Location
+                  uuid = "1FAC3C45-18B6-4CF9-A101-F071E4A45C83 - e05eda255726dc58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; JXFoundation.JXNavigationBar in JXFoundation.JXBaseViewController.customNavigationBar.getter : JXFoundation.JXNavigationBar"
+                  moduleName = "JXFoundation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac1/Desktop/UPayCustomer/Pods/JXFoundation/JXFoundation/Classes/Basic/ViewController/JXBaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  uuid = "1FAC3C45-18B6-4CF9-A101-F071E4A45C83 - 6fb7aa44b94cd10d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JXFoundation.JXBaseViewController.customNavigationBar.setter : JXFoundation.JXNavigationBar"
+                  moduleName = "JXFoundation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac1/Desktop/UPayCustomer/Pods/JXFoundation/JXFoundation/Classes/Basic/ViewController/JXBaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "1FAC3C45-18B6-4CF9-A101-F071E4A45C83 - fcbd590caefdd1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JXFoundation.JXBaseViewController.customNavigationBar.modify : JXFoundation.JXNavigationBar"
+                  moduleName = "JXFoundation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac1/Desktop/UPayCustomer/Pods/JXFoundation/JXFoundation/Classes/Basic/ViewController/JXBaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "1FAC3C45-18B6-4CF9-A101-F071E4A45C83 - 85efa55b46a6be58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JXFoundation.JXBaseViewController.customNavigationBar.modify : JXFoundation.JXNavigationBar with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "JXFoundation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac1/Desktop/UPayCustomer/Pods/JXFoundation/JXFoundation/Classes/Basic/ViewController/JXBaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "1FAC3C45-18B6-4CF9-A101-F071E4A45C83 - f16e6754f2387b42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JXFoundation.JXBaseViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; JXFoundation.JXBaseViewController"
+                  moduleName = "JXFoundation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac1/Desktop/UPayCustomer/Pods/JXFoundation/JXFoundation/Classes/Basic/ViewController/JXBaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "267">
+               </Location>
+               <Location
+                  uuid = "1FAC3C45-18B6-4CF9-A101-F071E4A45C83 - c20a2c309e1b4971"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JXFoundation.JXBaseViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;JXFoundation.JXBaseViewController&gt;"
+                  moduleName = "JXFoundation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac1/Desktop/UPayCustomer/Pods/JXFoundation/JXFoundation/Classes/Basic/ViewController/JXBaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "087C0307-F835-461A-A67E-419519D546E0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UPayCustomer/Main/LoginRegister/ViewController/UPayLoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
+            landmarkName = "logAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "424E0BB3-F385-45A7-8AC7-674981F1CFF3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UPayCustomer/Main/LoginRegister/ViewController/UPayLoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "logAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "000D9A7D-3FB1-4C5E-A257-1AC0D9EFAB29"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UPayCustomer/Main/LoginRegister/ViewController/UPayLoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
+            landmarkName = "logAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40A1BCF2-F574-497B-B5EC-10B10610270C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UPayCustomer/Main/LoginRegister/ViewController/UPayLoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
+            landmarkName = "logAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90F0D83F-56EF-45A0-9F3E-3C5D2AC3F6B1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UPayCustomer/Main/Ad/ViewController/UPayAddAd2ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "next(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "794CAA38-32B3-4F3A-9925-41D683A143E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UPayCustomer/Main/Ad/ViewController/UPayAddAd3ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "211"
+            endingLineNumber = "211"
+            landmarkName = "UPayAddAd3ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E2527B6-D61F-4B98-A80B-080F4D11CD11"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UPayCustomer/Main/Property/ViewController/UPayReceiptViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

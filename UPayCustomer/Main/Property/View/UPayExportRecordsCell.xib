@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="66" id="sag-gx-dZV" customClass="UPayExportRecordsCell" customModule="UPayCustomer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="371" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sag-gx-dZV" id="Lt3-bd-opv">
+                <rect key="frame" x="0.0" y="0.0" width="371" height="65.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ia9-rl-wVm">
+                        <rect key="frame" x="0.0" y="0.0" width="371" height="65"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="y50-Xw-0oB">
+                                <rect key="frame" x="15" y="10" width="341" height="44"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="0Uk-tp-aNA">
+                                        <rect key="frame" x="0.0" y="0.0" width="27.5" height="44"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="left" horizontalHuggingPriority="251" text="数量" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFo-WG-XkS">
+                                                <rect key="frame" x="0.0" y="0.0" width="27.5" height="23"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" red="0.33725490200000002" green="0.39607843139999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfU-tp-Cdp">
+                                                <rect key="frame" x="0.0" y="28" width="27.5" height="16"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <color key="textColor" red="0.33725490200000002" green="0.39607843139999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="DsA-WY-aAV">
+                                        <rect key="frame" x="98" y="0.0" width="40" height="44"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="left" horizontalHuggingPriority="251" text="状态" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bef-cv-EEu">
+                                                <rect key="frame" x="0.0" y="0.0" width="40" height="23"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" red="0.33725490200000002" green="0.39607843139999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="提币中" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P68-lL-ZWK">
+                                                <rect key="frame" x="0.0" y="28" width="40" height="16"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <color key="textColor" red="0.33725490200000002" green="0.39607843139999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="vBd-EP-WMg">
+                                        <rect key="frame" x="208.5" y="0.0" width="132.5" height="44"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="left" horizontalHuggingPriority="251" text="时间" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H2M-3i-QCs">
+                                                <rect key="frame" x="0.0" y="0.0" width="132.5" height="23"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" red="0.33725490200000002" green="0.39607843139999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019-09-26 04:18:32" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pUh-XG-tYc">
+                                                <rect key="frame" x="0.0" y="28" width="132.5" height="16"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <color key="textColor" red="0.33725490200000002" green="0.39607843139999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="OP2-UG-eQf"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Sh-06-TK1">
+                                <rect key="frame" x="0.0" y="64" width="371" height="1"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="MaI-KW-l9T"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="y50-Xw-0oB" secondAttribute="trailing" constant="15" id="0Uy-RK-EV2"/>
+                            <constraint firstItem="2Sh-06-TK1" firstAttribute="leading" secondItem="Ia9-rl-wVm" secondAttribute="leading" id="JtG-3r-gPC"/>
+                            <constraint firstAttribute="bottom" secondItem="2Sh-06-TK1" secondAttribute="bottom" id="QE9-TZ-BKM"/>
+                            <constraint firstAttribute="trailing" secondItem="2Sh-06-TK1" secondAttribute="trailing" id="mqw-mm-lrF"/>
+                            <constraint firstItem="2Sh-06-TK1" firstAttribute="top" secondItem="y50-Xw-0oB" secondAttribute="bottom" constant="10" id="tYW-eR-kni"/>
+                            <constraint firstItem="y50-Xw-0oB" firstAttribute="top" secondItem="Ia9-rl-wVm" secondAttribute="top" constant="10" id="vd2-Wk-OFZ"/>
+                            <constraint firstItem="y50-Xw-0oB" firstAttribute="leading" secondItem="Ia9-rl-wVm" secondAttribute="leading" constant="15" id="xw1-HT-JFl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ia9-rl-wVm" firstAttribute="top" secondItem="Lt3-bd-opv" secondAttribute="top" id="DWx-zl-sto"/>
+                    <constraint firstItem="Ia9-rl-wVm" firstAttribute="leading" secondItem="Lt3-bd-opv" secondAttribute="leading" id="UYE-5d-eLM"/>
+                    <constraint firstAttribute="trailing" secondItem="Ia9-rl-wVm" secondAttribute="trailing" id="Z2C-Ij-F27"/>
+                    <constraint firstAttribute="bottom" secondItem="Ia9-rl-wVm" secondAttribute="bottom" constant="0.5" id="pip-LA-h5B"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="numberLabel" destination="pfU-tp-Cdp" id="VT9-8t-8Ry"/>
+                <outlet property="statusLabel" destination="P68-lL-ZWK" id="jQs-DI-LjJ"/>
+                <outlet property="timeLabel" destination="pUh-XG-tYc" id="Mfq-ue-HoQ"/>
+            </connections>
+            <point key="canvasLocation" x="94.927536231884062" y="194.19642857142856"/>
+        </tableViewCell>
+    </objects>
+</document>
